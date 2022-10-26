@@ -78,6 +78,10 @@
     sudo netplan apply
     ```
 
+4. Verificar (y modificar en caso que sea necesario) que la configuración el *puerto* de la *sub-red* coincida con la configuración realizada en el *punto 2* de esta sub-sección.
+
+    <img src="./img/port.png"  width="75%" height="50%">
+
 ### Agregar nombres de Dominio
 
 1. Agregar los DNSs
