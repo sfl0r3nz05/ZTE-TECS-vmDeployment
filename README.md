@@ -232,7 +232,13 @@
     more ~/.ssh/authorized_keys
     ```
 
-5. Configurar el *servidor SSH*, descomentando o agregando los siguientes puntos:
+5. Editar el archivo de configuración de ssh:
+
+    ```console
+    nano /etc/ssh/sshd_config
+    ```
+
+7. Configurar el *servidor SSH*, descomentando o agregando los siguientes puntos:
 
     ```console
     RSAAuthentication yes
