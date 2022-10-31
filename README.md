@@ -223,7 +223,7 @@
    - Copiar la IP públca importada en el archivo `autorized_key`.
 
     ```console
-    cat ~/.ssh/id_rsa.pub >> authorized_keys
+    cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
     ```
 
    - Verificar nuevamente el archivo *autorized_key*:
