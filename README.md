@@ -101,7 +101,7 @@
 3. Verificar el estado:
 
     ```console
-    systemd-resolve –status
+    systemd-resolve --status
     ```
 
 4. Verificar los cambios:
